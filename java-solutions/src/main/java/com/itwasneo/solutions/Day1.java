@@ -1,4 +1,4 @@
-package com.itwasneo.day1;
+package com.itwasneo.solutions;
 
 /**
  * Good morning! Here's your coding interview problem for today.

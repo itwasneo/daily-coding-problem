@@ -1,4 +1,4 @@
-package com.itwasneo.day1;
+package com.itwasneo.solutions;
 
 import java.util.Arrays;
 import java.util.OptionalInt;
