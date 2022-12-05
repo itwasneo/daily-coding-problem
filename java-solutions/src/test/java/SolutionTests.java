@@ -1,11 +1,11 @@
 import com.itwasneo.solutions.Day1;
-import com.itwasneo.solutions.Day3;
-import org.junit.jupiter.api.Test;
-
 import com.itwasneo.solutions.Day2;
+import com.itwasneo.solutions.Day3;
+import com.itwasneo.solutions.Day4;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -35,5 +35,13 @@ public class SolutionTests {
 //                                new Day3.Node<>("4", null, null))));
         new Day3<String>().deserialize("0/1/2/8#\3#\7#\4#");
 //        assertEquals(new Day3.Node<String>(null, null, null), new Day3<String>().deserialize("69"));
+    }
+
+    @Test
+    public void day4_test() {
+        assertEquals(2, Day4.solve(new int [] {3,4,-1,1}));
+        assertEquals(3, Day4.solve(new int [] {1,2,0}));
+        assertEquals(5, Day4.solve(new int[] {-2,-3,0,1,2,4,9,10,8,3,0,0,2,0,-1}));
+        assertEquals(5, Day4.solve(new int[] {4,9,10,8}));
     }
 }
