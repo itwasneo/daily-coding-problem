@@ -1,7 +1,4 @@
-import com.itwasneo.solutions.Day1;
-import com.itwasneo.solutions.Day2;
-import com.itwasneo.solutions.Day4;
-import com.itwasneo.solutions.Day5;
+import com.itwasneo.solutions.*;
 import org.javatuples.Pair;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -37,5 +34,11 @@ public class SolutionTests {
     public void day5_test() {
         assertEquals(3, Day5.car(Day5.cons.apply(3,4)));
         assertEquals(4, Day5.cdr(Day5.cons.apply(3,4)));
+    }
+
+    @Test
+    public void aoc_day5_test() {
+        assertEquals("VJSFHWGFT", AoCDay5.solve(1));
+        assertEquals("LCTQFBVZV", AoCDay5.solve(2));
     }
 }
