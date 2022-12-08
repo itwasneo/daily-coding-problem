@@ -1,0 +1,33 @@
+* {
+  background-color: #2b2727;
+}
+
+h1 {
+  color: #645188;
+  font-size: xx-large;
+}
+
+h2 {
+  color: #645188;
+}
+
+p {
+  font-size: large;
+}
+
+a {
+  color: #886451;
+  font-size: larger;
+  text-decoration: none;
+}
+
+mark {
+  background-color: #645188;
+  color: #ffffff;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+code {
+  background-color: white;
+}

@@ -1,2 +1,5 @@
 /java-solutions/.idea/
 /java-solutions/target/
+
+/rust-solutions/Cargo.lock
+/rust-solutions/target
