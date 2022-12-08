@@ -36,9 +36,4 @@ public class SolutionTests {
         assertEquals(4, Day5.cdr(Day5.cons.apply(3,4)));
     }
 
-    @Test
-    public void aoc_day5_test() {
-        assertEquals("VJSFHWGFT", AoCDay5.solve(1));
-        assertEquals("LCTQFBVZV", AoCDay5.solve(2));
-    }
 }
