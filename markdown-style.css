@@ -1,5 +1,6 @@
 * {
   background-color: #2b2727;
+  color: #f8f8f280;
 }
 
 h1 {
@@ -19,15 +20,12 @@ a {
   color: #886451;
   font-size: larger;
   text-decoration: none;
+  text-shadow: 0 0 10px #f1fa8c50;
 }
 
 mark {
-  background-color: #645188;
-  color: #ffffff;
+  color: #8be9fd;
   font-size: larger;
   font-weight: bolder;
-}
-
-code {
-  background-color: white;
+  text-shadow: 0 0 10px #ffffff80;
 }
